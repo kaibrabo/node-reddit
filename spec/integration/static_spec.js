@@ -13,5 +13,14 @@ describe('routes : static', () => {
         });
     });
 
+    describe('GET /kiki', () => {
+        it('should return status code 200', (done) => {
+            request.get(base + '/kiki', (err, res, body) => {
+                expect(res.statusCode).toBe(200);
+                expect(body).toBe('da sneaky');
+                done();
+            });
+        });
+    });
     // Another route
 })
