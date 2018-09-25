@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <% include ./partials/head.ejs %>
+</head>
+
+<body>
+
+    <!-- nav -->
+    <% partials ./partials/navbar.ejs %>
+
+    <!-- Main Content -->
+    <main class='container'>
+        <!-- Header -->
+        <header class='jumbotron my-4'>
+            <h1 class='display-3'>Welcome to Node Reddit</h1>
+            <p class='lead'>A new application</p>
+            <a href='#' class='btn btn-primary btn-lg'>Sign Up</a>
+        </header>
+
+        <!-- Features -->
+        <section class='row text-center'>
+            <section class='col-lg-4'>
+                <h4 class='card-title'>Post</h4>
+                <p class='card-text'>Share Posts</p>
+            </section>
+            <section class='col-lg-4'>
+                <h4 class='card-title'>Comment</h4>
+                <p class='card-text'>Comment on Posts</p>
+            </section>
+            <section class='col-lg-4'>
+                <h4 class='card-title'>Check Back</h4>
+                <p class='card-text'>New Posts all the time</p>
+            </section>
+        </section>
+    </main>
+
+</body>
+
+</html>
