@@ -1,0 +1,9 @@
+2018-09-29 20:28:13.145 PDT [5925] LOG:  listening on IPv6 address "::1", port 5432
+2018-09-29 20:28:13.145 PDT [5925] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2018-09-29 20:28:13.145 PDT [5925] FATAL:  lock file "/tmp/.s.PGSQL.5432.lock" already exists
+2018-09-29 20:28:13.145 PDT [5925] HINT:  Is another postmaster (PID 48728) using socket file "/tmp/.s.PGSQL.5432"?
+2018-09-29 20:28:13.145 PDT [5925] LOG:  database system is shut down
+2018-09-29 20:37:51.888 PDT [6193] FATAL:  lock file "postmaster.pid" already exists
+2018-09-29 20:37:51.888 PDT [6193] HINT:  Is another postmaster (PID 6182) running in data directory "/usr/local/var/postgres"?
+2018-09-29 20:38:19.279 PDT [6205] FATAL:  lock file "postmaster.pid" already exists
+2018-09-29 20:38:19.279 PDT [6205] HINT:  Is another postmaster (PID 6182) running in data directory "/usr/local/var/postgres"?
